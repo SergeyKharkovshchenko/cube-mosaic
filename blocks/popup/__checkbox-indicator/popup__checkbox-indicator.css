@@ -1,0 +1,22 @@
+.popup__checkbox-indicator {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    height: 20px;
+    width: 20px;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    margin-right: 10px;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    opacity: .6;
+    cursor: pointer;
+}
+
+.checked{
+    background-image: url("../../../images/selected.svg");
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+    z-index: 5;
+}

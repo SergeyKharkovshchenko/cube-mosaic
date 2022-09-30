@@ -1,0 +1,7 @@
+.popup__title{
+    font-family: 'IBM Plex Serif',serif;
+    font-weight: 600;
+    color: #000000;
+    margin: 11px auto 0 auto;
+    font-size: 32px;
+}

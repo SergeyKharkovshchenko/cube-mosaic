@@ -1,0 +1,19 @@
+.footer__links {
+list-style: none;
+display: flex;
+justify-content: start;
+flex-direction: column;
+padding: 0;
+color: white;
+align-items: center;
+margin: 20px auto;
+}
+
+@media screen and (max-width:767px) {
+    .footer__links {
+        flex-direction: column;
+        align-self: start;
+        margin: 0;
+        height: auto;
+    }
+}

@@ -1,0 +1,43 @@
+.footer__link {
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration: none;
+    margin: 10px auto;
+    font-family: "IBM Plex Sans", Arial, sans-serif;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 767px) {
+    .footer__link {
+        font-size: 24px;
+        line-height: 56px;
+        margin: 0;
+    }
+}
+
+.footer__link_type_contacts{
+    font-size: 27px;
+    font-weight: 700;
+    font-family: "IBM Plex Serif";
+}
+
+.footer__link:hover{
+    opacity: 0.8;
+}
+
+
+.footer__mailto{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.footer__soclink{
+    width: 30px;
+    height: 30px;
+    align-self: center;
+    z-index: 10;
+    margin-top: 10px;
+}

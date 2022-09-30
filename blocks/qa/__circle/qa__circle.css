@@ -1,0 +1,16 @@
+.qa__circle{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    border-radius: 100px;
+    background-color: transparent;
+    transition: all 1s ease 0s;
+    border: 1px solid transparent;
+}
+
+.qa__icon:hover >.qa__circle {
+    background-color: #006fff;
+    opacity: 0.5;
+    }

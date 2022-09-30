@@ -1,0 +1,15 @@
+.popup__range-interval{
+    padding-top: 10px;
+    font-size: 14px;
+    line-height: 1.55;
+    display: flex;
+}
+
+.popup__range-interval_type_min{
+    display: inline-block;
+    width: 100%;
+}
+
+.popup__range-interval_type_max{
+    text-align: right;
+}

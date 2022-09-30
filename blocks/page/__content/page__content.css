@@ -1,0 +1,23 @@
+.page__content {
+    margin: 56px auto 92px auto;
+    width: 100%;
+}
+
+@media screen and (max-width:1279px) {
+    .page__content {
+        margin-top: 48px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width:1023px) {
+    .page__content {
+        margin-bottom: 88px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .page__content {
+        margin-bottom: 48px;
+    }
+}

@@ -1,0 +1,45 @@
+.popup__submit{
+
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    
+
+
+    position: relative;
+    width: 100%;
+    height: 54px;
+    -webkit-appearance: none;
+
+
+    text-align: center;
+    height: 60px;
+    border: 0 none;
+    font-size: 16px;
+    padding-left: 60px;
+    padding-right: 60px;
+    -webkit-appearance: none;
+    font-weight: 700;
+    white-space: nowrap;
+    background-image: none;
+    cursor: pointer;
+    margin:20px auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: 0;
+    background: 0 0;
+
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.popup__submit_invalid{
+    background: white;
+    box-sizing: border-box;
+border: 1px solid #000000;
+border-radius: 2px;
+color: #000000;
+box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+opacity: 0.2;
+}

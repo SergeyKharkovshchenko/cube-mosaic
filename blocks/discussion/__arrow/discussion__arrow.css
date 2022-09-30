@@ -1,0 +1,16 @@
+.discussion__arrow{
+    /* display: block; */
+    max-width: 100px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: -110px;
+    transform: translate(-50%, -50%);
+}
+
+
+@media screen and (max-width:767px) {
+    .discussion__arrow{
+        left: -50px;
+    }
+}

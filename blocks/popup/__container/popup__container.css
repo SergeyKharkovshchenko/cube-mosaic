@@ -1,0 +1,19 @@
+.popup__container{
+    margin: 30px auto;
+    padding: 10px 40px;
+    top: 0;
+    position: relative;
+    left: auto;
+    right: auto;
+     width: 450px;
+    background-color: white;
+    text-align: center;
+    z-index: 100;
+}
+
+.popup__window{
+    width: 100%;
+    height: 100%;
+    margin-right: 20px;
+    padding: 0;
+}

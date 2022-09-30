@@ -1,0 +1,13 @@
+.content {
+    flex-shrink: 0;
+    display: grid;
+    row-gap: 40px;
+}
+
+@media screen and (max-width:767px) {
+    .content {
+        grid-template-columns: auto;
+        row-gap: 64px;
+        margin: 0;
+    }
+}

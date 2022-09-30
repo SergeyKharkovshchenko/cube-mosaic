@@ -1,0 +1,15 @@
+.qa__lines{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: all ease-in-out .3s;
+    transform: rotate(0);
+    z-index: 1;
+}
+
+.qa__opened.qa__lines {
+    transform: rotate(-45deg);
+    z-index: 1;
+    transition: all ease-in-out .3s;
+}

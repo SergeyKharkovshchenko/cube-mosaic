@@ -1,0 +1,24 @@
+.popup__atom{
+    color: #000000;
+    line-height: 1.25;
+    font-size: 27px;
+    font-weight: 700;
+    font-family: "IBM Plex Serif";
+    border-width: 4px;
+    border-radius: 0px;
+    background-position: center center;
+    border-color: #000000;
+    border-style: solid;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    text-align: center;
+    width: 200px;
+    height: 80px;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+.popup__atom:hover{
+background-color: #87ffa5;
+background-image: none;
+color: #000000;
+}

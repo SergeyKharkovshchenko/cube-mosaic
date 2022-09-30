@@ -1,0 +1,23 @@
+.header__phone{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+@media screen and (max-width:1400px) {
+    .header__phone{
+    font-size: 20px;
+    }
+    }
+
+@media screen and (max-width:1024px) {
+    .header__phone{
+    font-size: 11px;
+   margin: 0;
+    }
+    }
+
+    @media screen and (max-width:767px) {
+        .header__phone{
+        font-size: 20px;
+        }
+        }

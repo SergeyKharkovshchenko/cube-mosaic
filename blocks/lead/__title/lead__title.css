@@ -1,0 +1,28 @@
+.lead__title {
+    /* font-weight: 900; */
+    font-size: 73px;
+    line-height: 100px;
+    text-align: center;
+    max-width: 720px;
+    margin: 0 auto 32px auto;
+
+    
+    font-weight: 700;
+    font-family: "IBM Plex Serif";
+}
+
+@media screen and (max-width:1000px) {
+    .lead__title {
+font-size: 30px;
+line-height: normal !important;
+max-width: 650px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .lead__title::before {
+        
+font-size: 20px;
+        max-width: 288px;
+    }
+}

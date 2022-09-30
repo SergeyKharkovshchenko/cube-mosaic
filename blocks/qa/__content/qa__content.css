@@ -1,0 +1,10 @@
+.qa__content{ 
+    max-height: 0px;
+    display: block;
+    overflow: hidden;
+    transition: max-height ease-in-out .3s, opacity ease-in-out .3s;
+}
+
+.qa__opened{
+    max-height: 1000px;
+}

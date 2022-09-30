@@ -1,0 +1,42 @@
+.header__lang-link {
+    color: white;
+margin: 0 0 0 18px;
+padding: 0;
+text-decoration: none;
+}
+
+
+@media screen and (max-width:767px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
+
+.header__lang-link:hover{
+    opacity: 0.8;
+}
+
+.header__link{
+    margin: 10px 15px;
+    padding: 0;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "IBM Plex Serif";
+       line-height: 28px;
+    color: black;
+}
+
+@media screen and (max-width:1015px) {
+    .header__link {
+        margin: 0;
+    }
+}
+
+
+@media screen and (max-width:767px) {
+    .header__link {
+        margin: 10px 15px;
+    }
+}

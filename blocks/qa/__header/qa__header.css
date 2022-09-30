@@ -1,0 +1,6 @@
+.qa__header{
+    position: relative;
+    cursor: pointer;
+    padding: 27px 50px 27px 0;
+    border-top: 1px solid #eeeeee;
+}
